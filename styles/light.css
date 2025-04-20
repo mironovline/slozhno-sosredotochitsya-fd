@@ -18,35 +18,11 @@
   --section-title-color: #353430;
   --decor-text-color: #353430;
   --bg-link-color: #ff8dcb;
+  --button-text-color: #353430;
 }
 
 .theme-light .page {
   
-  .decorated-zone {
-    position: relative;
-  }
-  .decorated-zone::before {
-    content: "";
-    position: absolute;
-    top: var(--decor-up-top);
-    right: var(--decor-up-right);
-    width: 25px;
-    height: 25px;
-    border-top: 1px solid  var(--angle-color);
-    border-right: 1px solid  var(--angle-color);
-  }
-
-  .decorated-zone::after {
-    content: "";
-    position: absolute;
-    bottom: var(--decor-down-bottom);
-    left: var(--decor-down-left);
-    width: 25px;
-    height: 25px;
-    border-bottom: 1px solid  var(--angle-color);
-    border-left: 1px solid  var(--angle-color);
-  }
-
   .header__rec {
     display: none;
   }
@@ -70,35 +46,10 @@
     --section-title-color: #353430;
     --decor-text-color: #353430;
     --bg-link-color: #ff8dcb;
+    --button-text-color: #353430;
     
     .header__rec {
       display: none;
-    }
-
-    .decorated-zone {
-      position: relative;
-    }
-
-    .decorated-zone::before {
-      content: "";
-      position: absolute;
-      top: var(--decor-up-top);
-      right: var(--decor-up-right);
-      width: 25px;
-      height: 25px;
-      border-top: 1px solid  var(--angle-color, #353430);
-      border-right: 1px solid  var(--angle-color, #353430);
-    }
-  
-    .decorated-zone::after {
-      content: "";
-      position: absolute;
-      bottom: var(--decor-down-bottom);
-      left: var(--decor-down-left);
-      width: 25px;
-      height: 25px;
-      border-bottom: 1px solid  var(--angle-color, #353430);
-      border-left: 1px solid  var(--angle-color, #353430);
     }
   }
   /* Дублируем переменные светлой темы */

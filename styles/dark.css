@@ -17,65 +17,11 @@
   --link-outline-color: #f1b2ce;
   --section-title-color: #ff0070;
   --decor-text-color: #000028;
+  
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-}
-
-.theme-dark .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
-  .decorated-zone {
-    position: relative;
-  }
-  
-  .decorated-zone::before {
-    content: "";
-    position: absolute;
-    top: var(--decor-up-top);
-    right: var(--decor-up-right);
-    width: 25px;
-    height: 25px;
-    border-top: 1px solid  var( --angle-color,#ff0070);
-    border-right: 1px solid  var( --angle-color,#ff0070);
-  }
-
-  .decorated-zone::after {
-    content: "";
-    position: absolute;
-    bottom: var(--decor-down-bottom);
-    left: var(--decor-down-left);
-    width: 25px;
-    height: 25px;
-    border-bottom: 1px solid  var(--angle-color,#ff0070);
-    border-left: 1px solid  var(--angle-color,#ff0070);
-  }
-  
-  .header__rec {
-    position: absolute;
-    top: var(--rec-top);
-    right: var(--rec-right);
-    display: flex;
-    align-items: center;
-    color: var(--rec-color,#ff0070);
-    font-family: var(--main-font, sans-serif);
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 139%;
-    text-align: center;
-    text-transform: uppercase;
-  }
-  
-  .header__rec::after {
-    content: "";
-    display: block;
-    margin: 10px;
-    border-radius: 100%;
-    box-shadow: 0 0 4px 2px var(--point-shadow-color,#ff0070);
-    background-color: var(--point-color,#ff0070);
-    inline-size: 9px;
-    block-size: 9px;
-  }
 }
 
  @media (prefers-color-scheme: dark) {
@@ -86,63 +32,11 @@
     --bg-image: url("../images/cover-image-dark.png");
     --title-color: #DB00FF;
     --title-shadow-color: #FF8DCB;
-    --nav-alt-color: rgba(50, 49, 45, 0.4);
+    --nav-alt-color: rgba(255, 0, 112, 0.4);
     --angle-color: #ff0070;
     --nav-active-color: #ff0070;
     --link-outline-color: #f1b2ce;
-     --section-title-color: #ff0070;
-     --decor-text-color: #000028;
-    
-    .decorated-zone {
-      position: relative;
-    }
-    
-    .decorated-zone::before {
-      content: "";
-      position: absolute;
-      top: var(--decor-up-top);
-      right: var(--decor-up-right);
-      width: 25px;
-      height: 25px;
-      border-top: 1px solid  var( --angle-color,#ff0070);
-      border-right: 1px solid  var( --angle-color,#ff0070);
-    }
-  
-    .decorated-zone::after {
-      content: "";
-      position: absolute;
-      bottom: var(--decor-down-bottom);
-      left: var(--decor-down-left);
-      width: 25px;
-      height: 25px;
-      border-bottom: 1px solid  var(--angle-color,#ff0070);
-      border-left: 1px solid  var(--angle-color,#ff0070);
-    }
-    
-    .header__rec {
-      position: absolute;
-      top: var(--rec-top);
-      right: var(--rec-right);
-      display: flex;
-      align-items: center;
-      color: var(--rec-color,#ff0070);
-      font-family: var(--main-font, sans-serif);
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 139%;
-      text-align: center;
-      text-transform: uppercase;
-    }
-    
-    .header__rec::after {
-      content: "";
-      display: block;
-      margin: 10px;
-      border-radius: 100%;
-      box-shadow: 0 0 4px 2px var(--point-shadow-color,#ff0070);
-      background-color: var(--point-color,#ff0070);
-      inline-size: 9px;
-      block-size: 9px;
-    }
+    --section-title-color: #ff0070;
+    --decor-text-color: #000028;
   }
 }
