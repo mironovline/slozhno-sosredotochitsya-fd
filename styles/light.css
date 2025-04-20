@@ -52,6 +52,7 @@
   }
 
   /* Вам также нужно будет написать ряд подобных селекторов */
+  
 }
 
 @media (prefers-color-scheme: light) {
@@ -69,7 +70,7 @@
     --section-title-color: #353430;
     --decor-text-color: #353430;
     --bg-link-color: #ff8dcb;
-    /* Дублируем переменные светлой темы */    
+    
     .header__rec {
       display: none;
     }
@@ -100,7 +101,9 @@
       border-left: 1px solid  var(--angle-color, #353430);
     }
   }
-  
+
+  /* Дублируем переменные светлой темы */   
+
 }
 
 
