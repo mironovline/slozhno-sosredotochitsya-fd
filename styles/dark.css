@@ -79,7 +79,7 @@
 }
 
  @media (prefers-color-scheme: dark) {
-  :root.theme-auto {
+  :root {
     --bg-color: #000028;
     --text-color: #F1B2CE;
     --accent-color:  #ff0070;
