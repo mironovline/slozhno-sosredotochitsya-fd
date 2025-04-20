@@ -7,5 +7,43 @@
   --bg--color: #000028;
   --text-color: #F1B2CE;
   --accent-color:  #ff0070;
-  --bg-image: url("./images/cover-image-dark.png")
+  --bg-image: url("./images/cover-image-dark.png");
+  --title-color: #DB00FF;
+  --title-shadow-color: #FF8DCB;
+  --nav-alt-color: rgba(50, 49, 45, 0.4);
+  --margin-small: 10px;
+  --margin-side: 20px;
+  --margin-medium: 40px;
+  --margin-section: 80px;
+  --regular: 400;
+  --bold: 700;
+  --decor-up-top: 10px;
+  --decor-up-right: 10px;
+  --decor-down-bottom: 10px;
+  --decor-down-left: 10px;
+  --rec-right: 10px;
+  --rec-top: 10px;
+  --angle-color: #ff0070;
+  --point-color: #ff0070;
+  --point-shadow-color: #ff0070;
+  --nav-alt-color: rgba(255, 0, 112, 0.4);
+  --nav-active-color: #ff0070;
+  --button-text-color: #ff0070;
+  --margin-side: 20px;
+  --gallery-gap: 10px;
+  --bg-link-color: #FF0070;
+  --link-outline-color: #f1b2ce;
+  --decor-text-color: #000028;
+}
+
+@media (width >= 768px) {
+  :root {
+    --decor-up-top: 20px;
+    --decor-up-right: 20px;
+    --decor-down-bottom: 20px;
+    --decor-down-left: 20px;
+    --rec-right: 20px;
+    --rec-top: 20px;
+    --gallery-gap: 20px;
+  }
 }
