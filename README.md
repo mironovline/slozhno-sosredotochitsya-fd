@@ -1,2 +1,2 @@
-https://github.com/mironovline/slozhno-sosredotochitsya-fd#
+https://github.com/mironovline/slozhno-sosredotochitsya-fd
 ***Добро пожаловать!***
